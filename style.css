@@ -9,7 +9,9 @@ h1 {
 }
 
 ul {
-  padding-left: 0px
+  padding-left: 0px;
+  list-style-type: none;
+  font-size: 30px;
 }
 
 .rounding_img {
@@ -22,6 +24,7 @@ ul {
 .movie_img {
   border: 5px solid #F4F3F2;
   width: 250px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .text_underline {
@@ -36,6 +39,7 @@ ul {
 
 .text-center {
   text-align: center;
+  padding-left: 5px;
 }
 .social-icon {
   display: inline;
@@ -53,11 +57,27 @@ ul {
 
 a {
   text-decoration: none;
-  color: #181818;
+  color: grey;
 }
 
 a:hover{
   color: #949494
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar {
+  text-decoration: none;
+  font-size: : 30px
+
 }
 
 
